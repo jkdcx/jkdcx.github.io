@@ -4,26 +4,31 @@
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<!-- link to W3 CSS -->
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		</head>
 		<body>
+
 			<nav>
 	    		<ul>
 	        		<li><a href="/">Home</a></li>
 		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
+	        		<li><a href="/projects">Projects</a></li>
 	        		<li><a href="/blog">Blog</a></li>
 	    		</ul>
 			</nav>
 			<div class="container">
-			
+
 			{{ content }}
-			
+
 			</div><!-- /.container -->
 			<footer>
 	    		<ul>
-	        		<li><a href="/">email</a></li>
+	        		<li><a href="#">email</a></li>
 	        		<li><a href="https://github.com/jkdcx">github.com/jkdcx</a></li>
 				</ul>
+
 			</footer>
 		</body>
 	</html>
