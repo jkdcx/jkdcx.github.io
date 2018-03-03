@@ -1,4 +1,4 @@
-.banner{
+.jumbotron{
     background-color: hsla(50, 33%, 25%, .75);
     color: white;
 }
@@ -6,6 +6,10 @@
 body {
     margin: 60px auto;
     width: 70%;
+}
+
+nav{
+    background-color: black;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
