@@ -1,7 +1,4 @@
-.jumbotron{
-    background-color: ;
-    color: white;
-}
+
 
 body {
     margin: 60px auto;
@@ -9,9 +6,7 @@ body {
     padding-top: 70px;
 }
 
-nav{
-    background-color: black;
-}
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -48,6 +43,7 @@ footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
     background-color: hsla(50, 33%, 25%, .75);
+    color: white;
 }
 
 ul.posts {
