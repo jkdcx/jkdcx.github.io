@@ -1,11 +1,12 @@
 .jumbotron{
-    background-color: hsla(50, 33%, 25%, .75);
+    background-color: ;
     color: white;
 }
 
 body {
     margin: 60px auto;
     width: 70%;
+    padding-top: 70px;
 }
 
 nav{
