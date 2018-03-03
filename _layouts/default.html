@@ -3,55 +3,26 @@
 		<head>
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
-			<meta name="viewport" content="width=device-width, initial-scale=1">
-			<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
-
 		</head>
-
 		<body>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+		        	<li><a href="/projects">Projects</a></li>
+	        		<li><a href="/blog">Blog</a></li>
+	    		</ul>
+			</nav>
+			<div class="container">
 
-			<!-- Sidebar -->
-		<div class="w3-sidebar w3-bar-block w3-dark-grey w3-animate-left" style="display:none;z-index:5" id="mySidebar">
-		  <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
-		  <a href="/" class="w3-bar-item w3-button">Home</a>
-		  <a href="/projects" class="w3-bar-item w3-button">Projects</a>
-		  <a href="/blog" class="w3-bar-item w3-button">JK's Blog</a>
-		</div>
+			{{ content }}
 
-		<!-- Overlay -->
-		<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
-
-		<!-- Page content -->
-		<div class = "w3-container w3-margin">
-			<button class="w3-button w3-xxlarge" onclick="w3_open()">&#9776;</button>
-			<header class="w3-container w3-blue-grey">
-				<h1>JK's Banner</h1>
-			</header>
-
-			<div class="w3-container">
-			  {{content}}
-			</div>
-
-			<footer class = "w3-container w3-blue-grey">
-				<h3>Footer</h3>
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="#">email</a></li>
+	        		<li><a href="https://github.com/jkdcx">github.com/hankquinlan</a></li>
+				</ul>
 			</footer>
-		</div>
-
-		<!-- JS to open and close sidebar with overlay effect -->
-		<script>
-		function w3_open() {
-		  document.getElementById("mySidebar").style.display = "block";
-		  document.getElementById("myOverlay").style.display = "block";
-		}
-
-		function w3_close() {
-		  document.getElementById("mySidebar").style.display = "none";
-		  document.getElementById("myOverlay").style.display = "none";
-		}
-		</script>
-
-
-
-			</body>
+		</body>
 	</html>
