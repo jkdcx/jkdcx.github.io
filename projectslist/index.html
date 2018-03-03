@@ -6,6 +6,6 @@ title: Projects
 <ul class="projects">
 
   {% for project in site.projects %}
-    <li><span>{{ project.date | date_to_string }}</span> » <a href="{{ project.url }}" title="{{ project.title }}">{{ project.title }}</a></li>
+    <li><span>{{ projects.date | date_to_string }}</span> » <a href="{{ projects.url }}" title="{{ projects.title }}">{{ projects.title }}</a></li>
   {% endfor %}
 </ul>
