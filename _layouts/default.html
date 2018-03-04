@@ -7,27 +7,32 @@
 			<!-- link to W3 CSS -->
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		</head>
 		<body>
+			<div class="w3-container">
 
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/projectslist">Projects</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
+				<div class="w3-container w3-blue-grey">
+					<nav>
+			    		<ul>
+			        		<li><a href="/"><i class= "fa fa-home" style="font-size:24px; color:light-blue"></i></a></li>
+				        	<li><a href="/projectslist">Projects</a></li>
+			        		<li><a href="/blog">Blog</a></li>
+			    		</ul>
+					</nav>
+				</div>
+				<div class="w3-container">
 
-			{{ content }}
+				{{ content }}
 
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="#">email</a></li>
-	        		<li><a href="https://github.com/jkdcx">github.com/jkdcx</a></li>
-				</ul>
+				</div><!-- /.container -->
+				<footer class="w3-container w3-blue-grey">
+		    		<ul>
+		        		<li><a href="#"><i class="fa fa-envelope-o" style="font-size: 24px; color:light-blue"></i></a></li>
+		        		<li><a href="https://github.com/jkdcx"><i class="fa fa-github" style="font-size: 24px;color:light-blue"></i></a></li>
+					</ul>
 
-			</footer>
+				</footer>
+			</div>
 		</body>
 	</html>
